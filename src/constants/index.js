@@ -159,10 +159,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2023 - July 2023",
     points: [
-      "Developed responsive web apps with a device-agnostic UI using HTML, CSS, and React.js, ensuring seamless user interaction.",
-      "Designed dynamic and interactive user interfaces using component-based React.js and Hooks, enhancing user experience and engagement.",
-      "Built React Native applications for a smooth cross-platform experience on both Android and iOS.",
-      "Maintained a structured codebase with reusable components and conducted testing for responsiveness and performance."
+      "Developed responsive web applications using HTML, CSS, and React.js, ensuring consistent performance across all devices and screen sizes",
+      "Built cross-platform mobile applications with React Native, delivering seamless user experiences on both Android and iOS platforms.",
+      "Designed and implemented reusable React components with Hooks to create dynamic, high-performance user interfaces."
     ]
   },
   {
@@ -172,13 +171,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "August 2023 - June 2024",
     points: [
-      "Led backend development for an school management desktop app and educational mobile app using TypeScript, enhancing reliability and reducing load time by 40% for 1,500+ users.",
-      "Developed real-time PDF generation in the backend, creating dynamic templates that automatically populate with live data via API calls.",
-      "Configured and deployed a backend project on AWS EC2, utilizing PM2 for process management and service monitoring.",
-      "Set up multiple backend instances running on different IPs/ports to optimize load distribution and performance.",
-      "Configured and deployed Nginx as a reverse proxy for load balancing, multi-route traffic handling, and static file serving, improving performance.",
-      "Automated API scheduling using NPM packages for efficient resource utilization.",
-      "Secured domain connections using Elastic IP and HTTPS with SSL certificates.",
+     "Led backend development for a school management desktop app and educational mobile app using TypeScript, enhancing reliability and reducing load time by 40% for 1,500+ users",
+     "Developed real-time PDF generation in the backend, creating dynamic templates that automatically populate with live data via API calls.",
+     "Configured and deployed a backend project on AWS EC2, utilizing PM2 for process management and service monitoring.",
+     "Configured and deployed Nginx as a reverse proxy for load balancing, multi-route traffic handling, and static file serving, improving performance",
     ],
   },
   {
@@ -192,7 +188,6 @@ const experiences = [
       "Provided guidance on route handling, authentication strategies, and implementing secure REST APIs.",
       "Taught best practices for database schema design, real-time updates, and optimizing backend performance."
     ]
-
   },
   {
     title: "Backend Developer",
@@ -203,9 +198,8 @@ const experiences = [
     points: [
       "Architected and developed backend services for Para Expert and User apps, ensuring robust and scalable solutions for seamless cross-platform functionality.",
       "Managed AWS infrastructure, including EC2 instances, S3 buckets, and containerization, optimizing storage, scalability, and deployment for both the app and admin dashboard.",
-      "Implemented TypeScript for improved code quality, security, and maintainability throughout the project.",
-      "Developed a RESTful API backend using Node.js, Express, and TypeScript, enabling seamless integration for Android and iOS platforms.",
-      "Implemented real-time features, including an automated mailing system, live notifications, and an optimized backend queue system to enhance performance and efficiency."
+      "Developed a RESTful API backend using Node.js, Express, and TypeScript, enabling smooth integration across Android and iOS platforms",
+      "Implemented real-time features like an automated mailing system, live notifications, and a backend queue system to boost performance and user engagement."
     ]
 
   },
