@@ -41,11 +41,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        As an enterprising engineering student, I am deeply passionate about exploring diverse technological domains. With a strong command of TypeScript, I seamlessly integrate its robustness with Firebase and Flutter to develop cutting-edge mobile applications <br />
+        Full-stack developer skilled in Flutter, React, and AWS with 1.5+ years of hands-on internship experience.  <br />
         <span className="sm:block hidden">
-        Additionally, I have a solid foundation in Data Structures and Algorithms (DSA) and Design and Analysis of Algorithms (DAA), which I have honed during my college years. This analytical mindset enables me to write efficient and scalable code, optimizing performance across various applications.
+        Passionate about building scalable systems and AI-powered solutions for real-world applications.
         <br />
-        Beyond my technical skills, I am also delving into AI and machine learning, leveraging advanced libraries to build intelligent applications.
         </span>
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
