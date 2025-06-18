@@ -429,35 +429,7 @@ const projects = [
     source_code_link:
       "#",
   },
-  {
-    name: "Todo Application",
-    description:
-      "A MERN stack To-Do app designed for efficient task management, featuring a secure JWT-based authentication system. Built with Express.js for server-side logic, MongoDB for data storage, and a dynamic React frontend, enabling users to add, edit, and delete tasks seamlessly.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },  
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Express.js",
-        color: "text-orange-500",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gossipapp,
-    source_code_link: "https://github.com/amaranand360/Todoappclientside",
-  },
+ 
 ];
 
 const socilaLinks = [
