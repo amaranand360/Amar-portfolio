@@ -257,12 +257,12 @@ const testimonials = [
   // },
   // {
   //   testimonial:
-  //     "Ganesh demonstrated exceptional teamwork and adaptability, making valuable contributions to our projects throughout their internship.",
-  //   name: "Pathik Patel",
-  //   designation: "Senior Software Developer",
-  //   company: "GT Pvt. Ltd",
+  //     "Amar demonstrated exceptional teamwork and adaptability, making valuable contributions to our projects throughout their internship.",
+  //   name: "Anay Tripathi",
+  //   designation: "Founder",
+  //   company: "Saathi.app",
   //   image: pathik,
-  //   linkedin: "https://www.linkedin.com/in/pathik-patel-in/"
+  //   linkedin: "https://www.linkedin.com/in/anay-tripathi-91287aab/"
   // },
   {
     testimonial:
@@ -424,11 +424,45 @@ const projects = [
         name: "mongodb",
         color: "green-text-gradient",
       },
+      {
+        name: "Express.js",
+        color: "text-orange-500",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
     ],
     image: tripguide,
-    source_code_link:
-      "#",
+    source_code_link:"#",
   },
+
+  {
+  name: "ExpenseMate - Splitwise",
+  description:
+    "ExpenseMate is a full-stack expense-splitting application built using React, Tailwind CSS, FastAPI, and PostgreSQL. It supports group creation, equal and percentage-based splits, real-time balance updates, and a clean, responsive UI",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "fastapi",
+      color: "orange-text-gradient",
+    },
+    {
+      name: "postgresql",
+      color: "green-text-gradient",
+    },
+    {
+      name: "tailwindcss",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: gossipapp,
+  source_code_link: "https://github.com/amaranand360/splitwise-web-app",
+}
+
  
 ];
 

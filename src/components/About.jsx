@@ -41,11 +41,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Full-stack developer skilled in Flutter, React, and AWS with 1.5+ years of hands-on internship experience.  <br />
-        <span className="sm:block hidden">
+        Full-stack developer skilled in React, Node.js and AWS with 1.5+ years of hands-on internship experience.
         Passionate about building scalable systems and AI-powered solutions for real-world applications.
         <br />
-        </span>
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
