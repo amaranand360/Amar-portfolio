@@ -50,6 +50,7 @@ import chaitanya from "./company/chaitanya.png"
 import pathik from "./company/pathi.jpg";
 import sayanatan from "./company/Sayantan.png";
 import yash from "./company/yash.jpeg"
+import Anay from "./company/Anay.jpeg"
 import nth from "./company/nth.png";
 import harsh from "./company/harsh.jpeg";
 import paraTalks from "./company/paratalks logo.png";
@@ -126,5 +127,6 @@ export {
   erpapp,
   chaitanya,
   paraTalks,
-  yash
+  yash,
+  Anay
 };

@@ -45,6 +45,7 @@ import {
   chaitanya,
   sayanatan,
   yash,
+  Anay,
   bewell,
 } from "../assets";
 
@@ -85,7 +86,7 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
   },
   {
     name: "JavaScript",
@@ -171,10 +172,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "August 2023 - June 2024",
     points: [
-     "Led backend development for a school management desktop app and educational mobile app using TypeScript, enhancing reliability and reducing load time by 40% for 1,500+ users",
-     "Developed real-time PDF generation in the backend, creating dynamic templates that automatically populate with live data via API calls.",
-     "Configured and deployed a backend project on AWS EC2, utilizing PM2 for process management and service monitoring.",
-     "Configured and deployed Nginx as a reverse proxy for load balancing, multi-route traffic handling, and static file serving, improving performance",
+      "Led backend development for a school management desktop app and educational mobile app using TypeScript, enhancing reliability and reducing load time by 40% for 1,500+ users",
+      "Developed real-time PDF generation in the backend, creating dynamic templates that automatically populate with live data via API calls.",
+      "Configured and deployed a backend project on AWS EC2, utilizing PM2 for process management and service monitoring.",
+      "Configured and deployed Nginx as a reverse proxy for load balancing, multi-route traffic handling, and static file serving, improving performance",
     ],
   },
   {
@@ -194,7 +195,7 @@ const experiences = [
     company_name: "ParaTalks",
     icon: paraTalks,
     iconBg: "#383E56",
-    date: "June 2024 - September",
+    date: "June 2024 - September 2024",
     points: [
       "Architected and developed backend services for Para Expert and User apps, ensuring robust and scalable solutions for seamless cross-platform functionality.",
       "Managed AWS infrastructure, including EC2 instances, S3 buckets, and containerization, optimizing storage, scalability, and deployment for both the app and admin dashboard.",
@@ -208,13 +209,25 @@ const experiences = [
     company_name: "Saathi",
     icon: Saathi,
     iconBg: "#383E56",
-    date: "November 2024 - current",
+    date: "November 2024 - July 2025",
     points: [
       "Designed and deployed two enhanced versions of the Sathi App using Flutter, optimizing the Trip Planner feature by improving trip logic, increasing app performance, and reducing unnecessary API calls.",
       "Led the end-to-end deployment process for both Play Store and App Store, ensuring seamless releases and enhanced app stability across Android and iOS.",
       "Developed V1 of an AI-powered Travel Research Assistant using React, Flask, and Node.js, enabling smart itinerary generation with an intelligent AI assistant for personalized travel planning."
     ]
 
+  },
+  {
+    title: "Software Developer",
+    company_name: "ARC Advisory Group",
+    icon: 'https://www.arcweb.com/themes/custom/archadvisory/images/arcweb.svg',
+    iconBg: "#383E56",
+    date: "Aug 2025 - Current",
+    points: [
+      "Designed and deployed two enhanced versions of the Sathi App using Flutter, optimizing the Trip Planner feature by improving trip logic, increasing app performance, and reducing unnecessary API calls.",
+      "Led the end-to-end deployment process for both Play Store and App Store, ensuring seamless releases and enhanced app stability across Android and iOS.",
+      "Developed V1 of an AI-powered Travel Research Assistant using React, Flask, and Node.js, enabling smart itinerary generation with an intelligent AI assistant for personalized travel planning."
+    ]
   },
 ];
 
@@ -255,15 +268,6 @@ const testimonials = [
   //   image: samiksha,
   //   linkedin: "https://www.linkedin.com/in/samiksha-taru-8393621a1/"
   // },
-  // {
-  //   testimonial:
-  //     "Amar demonstrated exceptional teamwork and adaptability, making valuable contributions to our projects throughout their internship.",
-  //   name: "Anay Tripathi",
-  //   designation: "Founder",
-  //   company: "Saathi.app",
-  //   image: pathik,
-  //   linkedin: "https://www.linkedin.com/in/anay-tripathi-91287aab/"
-  // },
   {
     testimonial:
       "As a Software intern, Amar consistently demonstrated their knack for problem-solving and innovative solutions, enhancing our team's productivity",
@@ -271,6 +275,16 @@ const testimonials = [
     designation: "Co-founder",
     company: "OSCode",
     image: harsh,
+  },
+  {
+    testimonial:
+      "Amar proved to be a dependable engineer with strong technical depth. He handled challenges confidently and often took the lead in resolving critical issues.",
+    name: "Anay Tripathi",
+    designation: "Founder",
+    company: "Saathi.app",
+    image: Anay,
+    linkedin: "https://www.linkedin.com/in/anay-tripathi-91287aab/"
+
   },
 ];
 
@@ -320,7 +334,7 @@ const projects = [
         name: "tailwindcss",
         color: "pink-text-gradient",
       },
-  
+
     ],
     image: erpapp,
     source_code_link: "#",
@@ -354,7 +368,7 @@ const projects = [
         name: "TypeScript",
         color: "text-purple-500"
       },
-      
+
     ],
     image: carrent,
     source_code_link: "https://github.com/amaranand360/twitter-app",
@@ -363,29 +377,29 @@ const projects = [
     name: "Amazon Clone",
     description:
       "A dynamic e-commerce platform built with React and JavaScript, featuring Redux and useContext for efficient state management. Integrated Firebase authentication for secure user login, along with product filtering, cart management, and seamless payment processing for an enhanced shopping experience.",
-      tags: [
-        {
-          name: "React.js",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "firebase",
-          color: "text-yellow-500",
-        },
-        {
-          name: "react-router",
-          color: "blue-text-gradient"
-        },
-        {
-          name: "css",
-          color: "text-purple-500"
-        },
-    
-      ],
+    tags: [
+      {
+        name: "React.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "text-yellow-500",
+      },
+      {
+        name: "react-router",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "css",
+        color: "text-purple-500"
+      },
+
+    ],
     image: photoshop,
     source_code_link:
       "https://github.com/amaranand360/Ecom-amazon-react-app-project",
@@ -434,36 +448,36 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link:"#",
+    source_code_link: "#",
   },
 
   {
-  name: "ExpenseMate - Splitwise",
-  description:
-    "ExpenseMate is a full-stack expense-splitting application built using React, Tailwind CSS, FastAPI, and PostgreSQL. It supports group creation, equal and percentage-based splits, real-time balance updates, and a clean, responsive UI",
-  tags: [
-    {
-      name: "react",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "fastapi",
-      color: "orange-text-gradient",
-    },
-    {
-      name: "postgresql",
-      color: "green-text-gradient",
-    },
-    {
-      name: "tailwindcss",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: gossipapp,
-  source_code_link: "https://github.com/amaranand360/splitwise-web-app",
-}
+    name: "ExpenseMate - Splitwise",
+    description:
+      "ExpenseMate is a full-stack expense-splitting application built using React, Tailwind CSS, FastAPI, and PostgreSQL. It supports group creation, equal and percentage-based splits, real-time balance updates, and a clean, responsive UI",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "fastapi",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gossipapp,
+    source_code_link: "https://github.com/amaranand360/splitwise-web-app",
+  }
 
- 
+
 ];
 
 const socilaLinks = [

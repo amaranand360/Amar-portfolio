@@ -41,8 +41,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Full-stack developer skilled in React, Node.js and AWS with 1.5+ years of hands-on internship experience.
-        Passionate about building scalable systems and AI-powered solutions for real-world applications.
+        Software developer with almost 3 years of experience in React, Node.js, MongoDB, PostgreSQL, and AWS, alongside hands-on experience delivering production-ready mobile apps to both the App Store and Play Store.
         <br />
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
