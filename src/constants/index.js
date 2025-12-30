@@ -224,9 +224,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Aug 2025 - Current",
     points: [
-      "Designed and deployed two enhanced versions of the Sathi App using Flutter, optimizing the Trip Planner feature by improving trip logic, increasing app performance, and reducing unnecessary API calls.",
-      "Led the end-to-end deployment process for both Play Store and App Store, ensuring seamless releases and enhanced app stability across Android and iOS.",
-      "Developed V1 of an AI-powered Travel Research Assistant using React, Flask, and Node.js, enabling smart itinerary generation with an intelligent AI assistant for personalized travel planning."
+      " Working on a web-based research platform in the textile domain using React JS and Material UI, focusing on scalable and user-friendly UI development.",
+      "Developing and maintaining backend services using Python with MS SQL Server to support secure research data handling and platform operations.",
+      "Collaborating with cross-functional teams to improve platform performance, ensure data consistency, and support ongoing research-driven enhancements."
     ]
   },
 ];
